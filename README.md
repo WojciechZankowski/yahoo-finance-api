@@ -1,5 +1,5 @@
 # Blazar Yahoo Finance API
-Another Yahoo Finance API wrapper.
+Another Yahoo Finance API wrapper. Made for educational purposes.
 
 ## Getting started
 
