@@ -216,9 +216,8 @@ public class Session {
 						RequestFactory.createForexRequest(receiver, requestID, fromCurrency, toCurrency), 0, delay,
 						TimeUnit.MILLISECONDS);
 				scheduledTasks.add(scheduledTask);
-
-				requestManager.addScheduledTasks(requestID, scheduledTasks);
 			}
+			requestManager.addScheduledTasks(requestID, scheduledTasks);
 			return;
 		}
 

@@ -51,11 +51,11 @@ public class ParseUtils {
 	 * This method parse time from String object to LocalTime object.
 	 *
 	 * @param timeValue
-	 *            Time value in format "K:ma" - "4:00pm".
+	 *            Time value in format "h:ma" - "4:00pm".
 	 * @return Parsed time to LocalTime object.
 	 */
 	public static LocalTime toLocalTime(String timeValue) {
-		return LocalTime.parse(trimQuotes(timeValue).toUpperCase(), DateTimeFormatter.ofPattern("K:ma"));
+		return LocalTime.parse(trimQuotes(timeValue).toUpperCase(), DateTimeFormatter.ofPattern("h:ma"));
 	}
 
 	/**
@@ -166,7 +166,7 @@ public class ParseUtils {
 	 * @return Converted value.
 	 */
 	public static long bigNumberToLong(String value) {
-		if (isParsable(value)) {
+		if (!isParsable(value)) {
 			throw new IllegalArgumentException("Illegal argument value.");
 		}
 
@@ -194,7 +194,7 @@ public class ParseUtils {
 	 * @return Converted value.
 	 */
 	public static double percentValueToDouble(String value) {
-		if (isParsable(value)) {
+		if (!isParsable(value)) {
 			throw new IllegalArgumentException("Illegal argument value.");
 		}
 		return Double.parseDouble(trimPercent(value));
@@ -219,7 +219,7 @@ public class ParseUtils {
 	 * @return Trimmed value.
 	 */
 	public static String trimQuotes(String value) {
-		if (isParsable(value)) {
+		if (!isParsable(value)) {
 			throw new IllegalArgumentException("Illegal argument value.");
 		}
 		return value.replaceAll("^\"|\"$", "");
@@ -233,7 +233,7 @@ public class ParseUtils {
 	 * @return Trimmed value.
 	 */
 	public static String trimPercent(String value) {
-		if (isParsable(value)) {
+		if (!isParsable(value)) {
 			throw new IllegalArgumentException("Illegal argument value.");
 		}
 		return value.replaceAll("%", "");
@@ -247,7 +247,7 @@ public class ParseUtils {
 	 * @return Trimmed value.
 	 */
 	public static String trimBold(String value) {
-		if (isParsable(value)) {
+		if (!isParsable(value)) {
 			throw new IllegalArgumentException("Illegal argument value.");
 		}
 		return value.replaceAll("<b>|</b>", "");

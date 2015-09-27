@@ -21,6 +21,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -100,6 +101,7 @@ public class RequestFactory {
 		try {
 			String value = UrlDataParser.oneLineReader(RequestURLFactory.createForexURL(fromCurrency, toCurrency));
 			String[] elements = value.split(DataConstants.ELEMENT_SPLITTER);
+
 			for (String element : elements) {
 				if (!ParseUtils.isParsable(element)) {
 					return;
