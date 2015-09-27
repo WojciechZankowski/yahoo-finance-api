@@ -1,0 +1,46 @@
+﻿Revert "Merge branch 'master' into gh-pages"
+
+This reverts commit 0dc40848cd82510f27c91536373ddccd8ec74c50, reversing
+changes made to 6f25253b6b2eca1971662456541129bca0e7994f.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch gh-pages
+# Your branch is up-to-date with 'origin/gh-pages'.
+#
+# Changes to be committed:
+#	deleted:    .gitignore
+#	deleted:    LICENSE.md
+#	deleted:    README.md
+#	deleted:    blazar-yahoo-finance-api-examples/pom.xml
+#	deleted:    blazar-yahoo-finance-api-examples/src/main/java/pl/zankowski/yahoofinanceapi/examples/ComplexExample.java
+#	deleted:    blazar-yahoo-finance-api-examples/src/main/java/pl/zankowski/yahoofinanceapi/examples/CustomDataExample.java
+#	deleted:    blazar-yahoo-finance-api-examples/src/main/java/pl/zankowski/yahoofinanceapi/examples/ForexExample.java
+#	deleted:    blazar-yahoo-finance-api-examples/src/main/java/pl/zankowski/yahoofinanceapi/examples/HistoricalDataExample.java
+#	deleted:    blazar-yahoo-finance-api-examples/src/main/java/pl/zankowski/yahoofinanceapi/examples/IntradayExample.java
+#	deleted:    blazar-yahoo-finance-api-examples/src/main/java/pl/zankowski/yahoofinanceapi/examples/MarketDataExample.java
+#	deleted:    blazar-yahoo-finance-api/pom.xml
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/Contract.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/DataConstants.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/DataReceiver.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/DataRequest.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/DataType.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/ForexCurrency.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/ParseUtils.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/RequestException.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/RequestFactory.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/RequestManager.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/RequestURLFactory.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/RequestUtils.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/Session.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/SessionFactory.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/TimePeriod.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/Tuple.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/UrlDataParser.java
+#	deleted:    blazar-yahoo-finance-api/src/main/java/pl/zankowski/yahoofinanceapi/YahooExchange.java
+#	deleted:    blazar-yahoo-finance-api/src/test/java/pl/zankowski/yahoofinanceapi/ParseUtilsTest.java
+#	deleted:    blazar-yahoo-finance-api/src/test/java/pl/zankowski/yahoofinanceapi/RequestURLFactoryTest.java
+#	deleted:    blazar-yahoo-finance-api/src/test/java/pl/zankowski/yahoofinanceapi/RequestUtilsTest.java
+#	deleted:    pom.xml
+#
+
