@@ -92,3 +92,7 @@ session.reqCustomData(1, instruments, dataTypes, 10000);
 ```java
 session.cancelRequest(1);
 ```
+
+## JavaDoc
+
+[JavaDoc] (http://wojciechzankowski.github.io/yahoo-finance-api/)
